@@ -95,7 +95,7 @@ createAFKBot();
 
 const server = http.createServer((_request, response) => { 
     response.writeHead(200, {"Content-Type": 'text/html'});
-    response.end('Pong!');
+    response.end('Выпускаем кракена!');
 });
 server.listen(process.env.PORT || 3000, () => { 
     console.log('Web for AntiAFK is running...');
